@@ -1,4 +1,4 @@
 *.mat
 .ipynb_checkpoints
 __pycache__
-./*.h5
+model-weight-*.h5
