@@ -19,7 +19,7 @@ The results will be different from the paper because I used 84 subjects, so the 
 [Long-term Blood Pressure Prediction with Deep Recurrent Neural Networks](https://arxiv.org/abs/1705.04524) which also used 84 subjects.
 <img src="https://github.com/ploymel/estimateBP/blob/master/pics/table.png" width="300">
 
-My Result are:
+My Results are:
 ```
 Overall RMSE Systolic: 6.053 (mmHg)
 Overall RMSE Diastolic: 3.402 (mmHg)
