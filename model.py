@@ -1,7 +1,6 @@
 import tensorflow as tf
 import keras
 from keras import backend as K
-from keras.callbacks import ModelCheckpoint, EarlyStopping
 
 def rmse (y_true, y_pred):
     return K.sqrt(K.mean(K.square(y_pred - y_true)))
@@ -78,9 +77,6 @@ def create_model():
     # Create a model using the functional API provided by Keras.
     # The functional API is great, it gives an amazing amount of freedom in architecture of your NN.
     # A read worth your time: https://keras.io/getting-started/functional-api-guide/ 
-    callbacks = [
-        EarlyStopping(monitor='val_loss', patience=2)
-    ]
     model = keras.models.Model(inputs=[encoder_inputs, decoder_inputs], outputs=decoder_outputs)
     model.compile(optimizer=optimiser, loss=loss)
     
