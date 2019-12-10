@@ -5,10 +5,18 @@ This respository was created to implement this paper which title is
 
 The network model of this method is seq2seq which I developed using Keras. (for more information please visit [link](https://github.com/LukeTonin/keras-seq-2-seq-signal-prediction))
 
+## Dataset
+You can download the dataset [here](https://drive.google.com/file/d/1veMt3YrkE17bivOYrrbLob2r7yRLJmyc/view?usp=sharing). 
+After Downloaded the dataset put its in ```data/```.
+
 ## Run the model
 To run the code please open jupyter notebook:
 1. Run ```preprocess.ipynb```
 2. Run ```train.ipynb```
+
+## Experimental Results
+The results will be different from the paper because I used 84 subjects, so the result will be a little bit similar to  
+[Long-term Blood Pressure Prediction with Deep Recurrent Neural Networks](https://arxiv.org/abs/1705.04524)
 
 ## For future modification to Improve Model Performance
 You can modify the network model in ```model.py``` and test its in ```model_eval.ipynb```
