@@ -33,3 +33,5 @@ You can modify the network model in ```model.py``` and test its in ```model_eval
 by Frank P.-W. Lo, Charles X.-T. Li, Jiankun Wang, Jiyu Cheng and Max Q.-H. Meng, Fellow, IEEE
 - [Keras implementation of a sequence to sequence model for time series prediction using an encoder-decoder architecture.](https://github.com/LukeTonin/keras-seq-2-seq-signal-prediction)
 by Luke Tonin
+- [Long-term Blood Pressure Prediction with Deep Recurrent Neural Networks](https://arxiv.org/abs/1705.04524)
+by Peng Su, Xiao-Rong Ding, Yuan-Ting Zhang, Jing Liu, Fen Miao, Ni Zhao
