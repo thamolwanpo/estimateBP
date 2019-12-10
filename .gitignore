@@ -1,5 +1,3 @@
 *.mat
 .ipynb_checkpoints
 __pycache__
-!weights/*.h5
-*.h5
