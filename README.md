@@ -1,7 +1,7 @@
 # Continuous Systolic and Diastolic Blood Pressure Estimation Utilizing Long Short-term Memory Network
 
 This respository was created to implement this paper which title is   
-'[Continuous Systolic and Diastolic Blood Pressure Estimation Utilizing Long Short-term Memory Network](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8037207)'
+'[Continuous Systolic and Diastolic Blood Pressure Estimation Utilizing Long Short-term Memory Network](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8037207)' by Frank P.-W. Lo, Charles X.-T. Li, Jiankun Wang, Jiyu Cheng and Max Q.-H. Meng, Fellow, IEEE
 
 The network model of this method is seq2seq which I developed using Keras. (for more information please visit [link](https://github.com/LukeTonin/keras-seq-2-seq-signal-prediction))
 
