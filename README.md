@@ -7,7 +7,7 @@ The network model of this method is seq2seq which I developed using Keras. (for 
 
 ## Dataset
 You can download the dataset [here](https://drive.google.com/file/d/1veMt3YrkE17bivOYrrbLob2r7yRLJmyc/view?usp=sharing). 
-After Downloaded the dataset put its in ```data/```.
+After Downloaded the dataset put it in ```data/```.
 
 ## Run the model
 To run the code please open jupyter notebook:
