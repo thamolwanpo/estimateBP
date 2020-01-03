@@ -9,6 +9,12 @@ The network model of this method is seq2seq which I developed using Keras. (for 
 You can download the dataset [here](https://drive.google.com/file/d/1veMt3YrkE17bivOYrrbLob2r7yRLJmyc/view?usp=sharing). 
 After Downloaded the dataset put it in ```data/```.
 
+## Test on
+- python 3.7.4
+- keras 2.3.1
+- tensorflow 2.0.0
+- numpy 1.17.2
+
 ## Run the model
 To run the code please open jupyter notebook:
 1. Run ```preprocess.ipynb```
