@@ -7,8 +7,8 @@ import argparse
 fieldnames = ["subject", "ppg", "ecg", "abp"]
 data_path = '../data/'
 
-x = np.load(data_path+'x_test.npy')
-y = np.load(data_path+'y_test.npy')
+x = np.load(data_path+'x_test.npy', allow_pickle=True)
+y = np.load(data_path+'y_test.npy', allow_pickle=True)
 
 parser = argparse.ArgumentParser(description='Subject to gen')
 parser.add_argument('-s', type=int, dest='subject', default=0,
