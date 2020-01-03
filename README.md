@@ -7,7 +7,7 @@ The network model of this method is seq2seq which I developed using Keras. (for 
 
 ## Dataset
 You can download the dataset [here](https://drive.google.com/file/d/1veMt3YrkE17bivOYrrbLob2r7yRLJmyc/view?usp=sharing). 
-After Downloaded the dataset put its in ```data/```.
+After Downloaded the dataset put it in ```data/```.
 
 ## Run the model
 To run the code please open jupyter notebook:
@@ -26,7 +26,7 @@ Overall RMSE Diastolic: 3.402 (mmHg)
 ```
 
 ## For future modification to Improve Model Performance
-You can modify the network model in ```model.py``` and test its in ```model_eval.ipynb```
+You can modify the network model in ```model.py``` and test it in ```model_eval.ipynb```
 
 ## References
 - [Continuous Systolic and Diastolic Blood Pressure Estimation Utilizing Long Short-term Memory Network](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8037207) 
